@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 nav {
@@ -54,4 +54,9 @@ h1 {
 
 .project-item p {
     color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }

@@ -1,4 +1,4 @@
-const apiKey = 'DEMO_KEY';
+const apiKey = 'pvzUFKzlTrcc2ihxotGk5S47svNJewyXvpgACbVX';
 
 async function fetchPhoto(date) {
     const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${date}`;
@@ -8,6 +8,7 @@ async function fetchPhoto(date) {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
+        localStorage.setItem(`nasaPhoto_${date}`, JSON.stringify(data)); // Cache the response
         displayPhoto(data);
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
@@ -38,5 +39,11 @@ function displayPhoto(data) {
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const date = urlParams.get('date') || new Date().toISOString().split('T')[0];
-    fetchPhoto(date);
+    const cachedData = localStorage.getItem(`nasaPhoto_${date}`);
+    
+    if (cachedData) {
+        displayPhoto(JSON.parse(cachedData));
+    } else {
+        fetchPhoto(date);
+    }
 });
