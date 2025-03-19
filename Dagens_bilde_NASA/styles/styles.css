@@ -17,6 +17,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -59,4 +60,15 @@ img {
 
 p {
     margin-top: 20px;
+}
+
+/* Media query for small screens */
+@media (max-width: 300px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Add some margin between items */
+    }
 }
