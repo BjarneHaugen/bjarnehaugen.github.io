@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Project 1",
+    "photo": "/vite.svg",
+    "info": "Short description of Project 1.",
+    "symbols": ["html5", "css3", "javascript"]
+  },
+  {
+    "name": "Project 2",
+    "photo": "/vite.svg",
+    "info": "Short description of Project 2.",
+    "symbols": ["html5", "css3", "javascript", "react", "nodejs", "vite"]
+  },
+  {
+    "name": "Project 3",
+    "photo": "/vite.svg",
+    "info": "Short description of Project 3.",
+    "symbols": ["html5", "css3", "javascript", "react", "vite"]
+  }
+]

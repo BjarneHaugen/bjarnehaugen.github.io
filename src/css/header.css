@@ -1,0 +1,26 @@
+.headerBar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 4vh;
+    background: #363F72;
+    z-index: 0;
+}
+
+.headerBarCut {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 4vh;
+    background: #072147;
+    clip-path: ellipse(50% 55% at 50% 50%);
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+#logo {
+    position: relative;
+    left: 5%;
+}
