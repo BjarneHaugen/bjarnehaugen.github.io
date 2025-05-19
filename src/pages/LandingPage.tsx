@@ -16,7 +16,7 @@ const LandingPage: React.FC = () => {
                         <p className='whiteText'> her kommer det tekst </p>
                         <button id="AboutMeButton"> Hvem er jeg?</button>
                     </div>
-                    <img id="Bjarne1" src="bjarne.jpg" alt="Bjarne Haugen" />
+                    <img id="Bjarne1" src="/bjarne.jpg" alt="Bjarne Haugen" />
                 </div>
                 <div>
                     <h2><span className="whiteText">MINE</span> <span className="yellowText">PROSJEKTER</span> </h2>
