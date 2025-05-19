@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ProjectsList from '../components/ProjectsList';
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const LandingPage: React.FC = () => {
     return (
