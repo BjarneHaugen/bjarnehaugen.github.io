@@ -1,7 +1,6 @@
 {
   "name": "bjarnehaugen.github.io",
-  "homepage": "https://bjarnehaugen.github.io/index.html",
-  "private": true,
+  "homepage": "https://bjarnehaugen.github.io/bjarnehaugen.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
