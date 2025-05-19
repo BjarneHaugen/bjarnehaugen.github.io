@@ -5,7 +5,7 @@ const Header = () => (
   <header>
     <div className="headerBar"> </div>
     <div className="headerBarCut"> </div>
-    <img id="logo" src="src/assets/logo.png" alt="Logo" />
+    <img id="logo" src="/logo.png" alt="Logo" />
   </header>
 );
 
