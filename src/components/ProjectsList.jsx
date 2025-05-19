@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import projects from "../projects.json";
 
-// You may want to use icons for symbols, but for now we'll just render the symbol names
 const symbolIcons = {
-  react: "/react.svg", // Replace with actual icon paths
+  react: "/react.svg",
   vite: "/vite.svg",
   css3: "/css3.svg",
   html5: "/html5.svg",

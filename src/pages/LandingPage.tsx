@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProjectsList from '../components/projectsList';
+import ProjectsList from '../components/ProjectsList';
 import Footer from '../components/footer';
 import Header from '../components/header';
 
