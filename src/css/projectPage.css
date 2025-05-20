@@ -1,0 +1,69 @@
+/* ProjectPage gallery and dot navigation styles */
+.projectPage-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.projectPage-gallery-img {
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.projectPage-gallery-dots {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.projectPage-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: none;
+    background: #363F72;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.2s;
+}
+
+.projectPage-dot.active {
+    background: #FFFFFF;
+    box-shadow: 0 0 4px #CCF381;
+}
+
+.projectPage-main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projectPage-summary {
+    max-width: 600px;
+}
+
+.projectPage-symbols {
+    margin: 24px 0;
+}
+
+.projectPage-symbols img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+}
+
+.projectPage-sections {
+    max-width: 600px;
+    width: 100%;
+    margin: 24px 0;
+}
+
+.projectPage-backBtn {
+    margin-top: 20px;
+}

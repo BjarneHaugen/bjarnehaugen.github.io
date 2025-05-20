@@ -11,15 +11,21 @@ const LandingPage: React.FC = () => {
             <main className="mainContent">
                 <div className="aboutMeRow">
                     <div className="aboutMeText">
-                        <h2 className='whiteText'>Welcome to My Portfolio</h2>
-                        <h1><span className="whiteText">BJARNE</span> <span className="yellowText">HAUGEN</span></h1>
-                        <p className='whiteText'> her kommer det tekst </p>
-                        <button id="AboutMeButton"> Hvem er jeg?</button>
+                        <h2 className='whiteText fontRajdhani fontStyleSemiBold fontSizeMedium'>Hei jeg heter</h2>
+                        <h1><span className="whiteText fontBebasNeue fontStyleNormal fontSizeXLarge">BJARNE</span> <span className="yellowText fontBebasNeue fontSizeXLarge">HAUGEN</span></h1>
+                        <p className='whiteText fontRajdhani fontStyleNormal fontSizeMedium'> her kommer det tekst </p>
+                        <button
+                            id="aboutMeButton"
+                            className='fontBebasNeue fontStyleNormal fontSizeMedium'
+                            onClick={() => window.location.hash = '#/aboutMe'}
+                        >
+                            Hvem er jeg?
+                        </button>
                     </div>
                     <img id="Bjarne1" src="/bjarne.jpg" alt="Bjarne Haugen" />
                 </div>
                 <div>
-                    <h2><span className="whiteText">MINE</span> <span className="yellowText">PROSJEKTER</span> </h2>
+                    <h2 id="myProjects"><span className="whiteText fontBebasNeue fontSizeXLarge">MINE</span> <span className="yellowText fontBebasNeue fontSizeXLarge">PROSJEKTER</span> </h2>
                     <ProjectsList />
                 </div>
             </main>

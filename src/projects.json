@@ -1,20 +1,62 @@
 [
   {
-    "name": "Project 1",
-    "photo": "/vite.svg",
-    "info": "Short description of Project 1.",
-    "symbols": ["html5", "css3", "javascript"]
+    "id": 0,
+    "name": "Picture of the day - NASA",
+    "photo": "/nasaPage1.png",
+    "gallery": [
+      "/nasaPage1.png",
+      "/nasaPage2.png"
+    ],
+    "summary": "Short description of Project 1.",
+    "background": "Background info about the NASA project.",
+    "development": "How the NASA project was developed.",
+    "solution": "The solution and results for the NASA project.",
+    "symbols": [
+      "html5",
+      "css3",
+      "javascript"
+    ]
   },
   {
-    "name": "Project 2",
-    "photo": "/vite.svg",
-    "info": "Short description of Project 2.",
-    "symbols": ["html5", "css3", "javascript", "react", "nodejs", "vite"]
+    "id": 1,
+    "name": "Havets Skatter",
+    "photo": "/havetsSkatterPage1.png",
+    "gallery": [
+      "/havetsSkatterPage1.png",
+      "/havetsSkatterPage2.png",
+      "/havetsSkatterPage3.png",
+      "/havetsSkatterPage4.png"
+    ],
+    "summary": "Short description of Project 2.",
+    "background": "Background info about Havets Skatter.",
+    "development": "How Havets Skatter was developed.",
+    "solution": "The solution and results for Havets Skatter.",
+    "symbols": [
+      "html5",
+      "css3",
+      "javascript",
+      "react",
+      "nodejs",
+      "vite"
+    ]
   },
   {
+    "id": 2,
     "name": "Project 3",
     "photo": "/vite.svg",
-    "info": "Short description of Project 3.",
-    "symbols": ["html5", "css3", "javascript", "react", "vite"]
+    "gallery": [
+      "/vite.svg"
+    ],
+    "summary": "Short description of Project 3.",
+    "background": "Background info about Project 3.",
+    "development": "How Project 3 was developed.",
+    "solution": "The solution and results for Project 3.",
+    "symbols": [
+      "html5",
+      "css3",
+      "javascript",
+      "react",
+      "vite"
+    ]
   }
 ]

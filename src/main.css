@@ -56,6 +56,28 @@ body {
     margin: auto;
 }
 
+.project>div {
+    margin-top: 20px;
+}
+
+#aboutMeButton {
+    background-color: #CCF381;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    font-size: xx-large;
+    transition: filter 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+
+.symbols {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .project img {
     width: 100%;
     height: 40%;
@@ -63,6 +85,15 @@ body {
     object-fit: cover;
     object-position: center;
     display: block;
+}
+
+#myProjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 10px;
 }
 
 .aboutMeRow {
@@ -80,4 +111,44 @@ body {
     min-width: 250px;
     max-width: 500px;
     flex: 1 1 300px;
+}
+
+.fontBebasNeue {
+    font-family: 'Bebas Neue';
+}
+
+.fontRajdhani {
+    font-family: 'Rajdhani';
+}
+
+.fontInter {
+    font-family: 'Inter';
+}
+
+.fontStyleSemiBold {
+    font-weight: 600;
+}
+
+.fontStyleNormal {
+    font-weight: 400;
+}
+
+.fontSizeXSmall {
+    font-size: 20px;
+}
+
+.fontSizeSmall {
+    font-size: 32px;
+}
+
+.fontSizeMedium {
+    font-size: 40px;
+}
+
+.fontSizeLarge {
+    font-size: 64px;
+}
+
+.fontSizeXLarge {
+    font-size: 96px;
 }
