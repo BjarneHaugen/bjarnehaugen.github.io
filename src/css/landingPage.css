@@ -1,0 +1,56 @@
+#Bjarne1 {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    flex: 1 1 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.aboutMeRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.aboutMeText {
+    min-width: 250px;
+    max-width: 500px;
+    flex: 1 1 300px;
+}
+
+
+
+#aboutMeButton {
+    background-color: #CCF381;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    font-size: xx-large;
+    transition: filter 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+#myProjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 10px;
+}

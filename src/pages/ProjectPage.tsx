@@ -11,6 +11,15 @@ const ProjectPage: React.FC = () => {
     const project = projects.find((p) => String(p.id) === String(id));
     const [currentImg, setCurrentImg] = useState(0);
 
+    const symbolLinks = {
+        react: 'https://react.dev/',
+        vite: 'https://vitejs.dev/',
+        css3: 'https://developer.mozilla.org/docs/Web/CSS',
+        html5: 'https://developer.mozilla.org/docs/Web/HTML',
+        nodejs: 'https://nodejs.org/',
+        javascript: 'https://developer.mozilla.org/docs/Web/JavaScript',
+    };
+
     if (!project) {
         return (
             <div>
@@ -55,6 +64,8 @@ const ProjectPage: React.FC = () => {
                             src={`/${symbol}.svg`}
                             alt={symbol}
                             title={symbol}
+                            onClick={() => window.open(symbolLinks[symbol] || 'https://google.com/search?q=' + symbol, '_blank')}
+                            style={{ cursor: 'pointer' }}
                         />
                     ))}
                 </div>

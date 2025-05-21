@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ProjectsList from '../components/ProjectsList';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import '../css/landingPage.css';
 
 const LandingPage: React.FC = () => {
     return (

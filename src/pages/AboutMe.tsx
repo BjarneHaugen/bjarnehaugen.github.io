@@ -10,7 +10,11 @@ const AboutMe: React.FC = () => {
             <div id="aboutMePage">
                 <div id="aboutMePageInfo" className="aboutMeRow">
                     <h1 className='yellowText fontBebasNeue fontSizeXLarge'>Litt om meg</h1>
-                    <p className='whiteText fontRajdhani fontStyleNormal fontSizeMedium'>Hello! I'm [Your Name], a passionate developer with a background in [Your Background].</p>
+                    <p className='whiteText fontRajdhani fontStyleNormal fontSizeSmall'>Hvem er jeg? <br />
+                        Hei, jeg heter Bjarne og er en 29 år gammel mann fra Sandefjord, Vestfold. Jeg har en bachelor i informasjonsteknologi og fagbrev som hjulutrustningsreparatør, noe som gir meg en bakgrunn som kombinerer både teknisk forståelse og praktiske ferdigheter.<br /><br />
+                        Jeg er en pliktoppfyllende og punktlig person. Andre ferdigheter som beskriver meg vil være fleksibel, effektiv og praktisk anlagt. Jeg trekkes mot logisk tenkning og liker å finne smarte løsninger på utfordringer. I tillegg er jeg glad i å lære nye ting og deler gjerne kunnskap med andre. <br /><br />
+                        Gaming har alltid vært en stor del av fritiden min, og jeg har lagt ned over 4000 timer i Europa Universalis IV – et grand strategy-spill som reflekterer min tilhørighet til logisk tenkning. Selv om jeg ikke spiller det like mye nå, har erfaringen formet måten jeg analyserer og løser problemer på. Samtidig liker jeg variasjon, både i spill og ellers, noe som viser at jeg er fleksibel og tilpasningsdyktig.<br /><br />
+                        Ellers har interessene vært mange og varierte – sjonglering, kajakkpolo med to NM-gull samt sølv og bronse, og bygging av PC-er siden åtteårsalderen. Jeg har erfaring med praktiske ferdigheter, alt fra datamaskiner til bilreparasjon og mye annet.</p>
                 </div>
 
                 <div id="pictureInformation">
@@ -20,8 +24,12 @@ const AboutMe: React.FC = () => {
                         <h3 className="whiteText fontInter">+ 47 93 80 15 64 </h3>
                     </div>
                     <div className='contactInformation'>
-                        <img className="icon" src="/email.svg" alt="email" />
+                        <img className="icon" src="/email.svg" alt="email" onClick={() => window.open('mailto:bjarnewilhelmhaugen@hotmail.com', '_blank')} style={{ cursor: 'pointer' }} />
                         <h3 className="whiteText fontInter">bjarnewilhelmhaugen@hotmail.com</h3>
+                    </div>
+                    <div className='contactInformation'>
+                        <img className="icon" src="/github.svg" alt="github" onClick={() => window.open('https://github.com/bjarnehaugen', '_blank')} style={{ cursor: 'pointer' }} />
+                        <img className="icon" src="/linkedin.svg" alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bjarnewilhelmhaugen/', '_blank')} style={{ cursor: 'pointer' }} />
                     </div>
                 </div>
             </div>
