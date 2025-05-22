@@ -25,7 +25,7 @@ const LandingPage: React.FC = () => {
                     </div>
                     <img id="Bjarne1" src="/bjarne.jpg" alt="Bjarne Haugen" />
                 </div>
-                <div>
+                <div id="projects">
                     <h2 id="myProjects"><span className="whiteText fontBebasNeue fontSizeXLarge">MINE</span> <span className="yellowText fontBebasNeue fontSizeXLarge">PROSJEKTER</span> </h2>
                     <ProjectsList />
                 </div>

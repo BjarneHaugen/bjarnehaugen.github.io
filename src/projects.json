@@ -8,9 +8,10 @@
       "/nasaPage2.png"
     ],
     "summary": "Short description of Project 1.",
-    "background": "Background info about the NASA project.",
-    "development": "How the NASA project was developed.",
-    "solution": "The solution and results for the NASA project.",
+    "info": "Oppgaven var å lage en nettside som henter ut dagens bilde fra NASA. Siden gir deg også mulighet til å hente ut bilder tilbake i tid ved bruk av en kalender.",
+    "background": "Dette prosjektet er laget for å vise mine ferdigheter med html, css og basic javascript.",
+    "development": "Prosjektet tok 2 dager. Jeg satt opp wireframe for å vite hvordan jeg ville det skulle se ut. Egen api-nøkkel ble skaffet fra nasa.gov for å kunne hente ut bilder bakover i tid. Jeg brukte copilot for å lage boilerplates og for å sjekke kode for feil. Git ble brukt for versjonskontroll. ",
+    "solution": "Siden er kodet i html og Javascript og stilsatt med css.",
     "symbols": [
       "html5",
       "css3",
@@ -28,9 +29,10 @@
       "/havetsSkatterPage4.png"
     ],
     "summary": "Short description of Project 2.",
-    "background": "Background info about Havets Skatter.",
-    "development": "How Havets Skatter was developed.",
-    "solution": "The solution and results for Havets Skatter.",
+    "info": "Et prosjekt for en fiktiv sjømat-restaurant.",
+    "background": "I dette prosjektet var oppgaven å lage en nettside for en fiktiv sjømat restaurant. I dette prosjektet var det ingen retningslinjer for UX, så alt har blitt designet av meg. Som du kan se: Det viktigste for meg er funksjonalitet, ikke utseende.",
+    "development": "I starten av prosjektet var planen kun å ha frontend med en statisk side som fortalte brukeren om hvor restauranten var og hva den handlet om, samt viste frem menyen, med filter for allergener. \n\nEn ekstra oppgavene var å lage mulighet for å reservere bord, så jeg bestemte meg for å implementere det etter at jeg hadde startet på prosjektet. Jeg satt opp en node server, men  hadde det vært planlagt fra starten, ville jeg brukt next.js",
+    "solution": "Prosjektet er laget som en singel-page application hvor brukeren har tilgang til 3 sider. Første side er informasjon om restauranten. Andre siden er menyen med mulighet til å markere allergener for å se hva du kan spise der. Tredje siden er bordbestilling. Denne siden er koblet til serveren hvor bord blir opptatt så andre kan se at du har bestilt. Nå får du kun bekreftelse når du bestiller bord som alert, men dette skulle bli en SMS og e-post på en faktisk fungerende side.",
     "symbols": [
       "html5",
       "css3",
@@ -48,6 +50,7 @@
       "/vite.svg"
     ],
     "summary": "Short description of Project 3.",
+    "info": "Project 3 is a sample project.",
     "background": "Background info about Project 3.",
     "development": "How Project 3 was developed.",
     "solution": "The solution and results for Project 3.",

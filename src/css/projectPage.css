@@ -1,4 +1,3 @@
-/* ProjectPage gallery and dot navigation styles */
 .projectPage-gallery {
     display: flex;
     flex-direction: column;
@@ -7,7 +6,7 @@
 }
 
 .projectPage-gallery-img {
-    max-width: 1000px;
+    max-width: 80%;
     width: 100%;
     border-radius: 12px;
     margin-bottom: 16px;
@@ -27,7 +26,6 @@
     background: #363F72;
     cursor: pointer;
     outline: none;
-    transition: background 0.2s;
 }
 
 .projectPage-dot.active {
@@ -43,6 +41,9 @@
     justify-content: center;
 }
 
+.projectPage-main h1 {
+    margin: 0;
+}
 
 .projectPage-summary {
     max-width: 600px;
@@ -59,11 +60,15 @@
 }
 
 .projectPage-sections {
-    max-width: 600px;
+    max-width: 80%;
     width: 100%;
     margin: 24px 0;
+    text-align: left;
+    align-items: flex-start;
 }
 
 .projectPage-backBtn {
     margin-top: 20px;
+    background-color: #CCF381;
+    color: #000000;
 }

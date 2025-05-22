@@ -23,4 +23,6 @@
 #logo {
     position: relative;
     left: 5%;
+    height: 100px;
+    width: auto;
 }

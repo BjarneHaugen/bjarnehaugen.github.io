@@ -29,7 +29,7 @@ const AboutMe: React.FC = () => {
                     </div>
                     <div className='contactInformation'>
                         <img className="icon" src="/github.svg" alt="github" onClick={() => window.open('https://github.com/bjarnehaugen', '_blank')} style={{ cursor: 'pointer' }} />
-                        <img className="icon" src="/linkedin.svg" alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bjarnewilhelmhaugen/', '_blank')} style={{ cursor: 'pointer' }} />
+                        <img className="icon" src="/linkedin.svg" alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bjarne-haugen/', '_blank')} style={{ cursor: 'pointer' }} />
                     </div>
                 </div>
             </div>

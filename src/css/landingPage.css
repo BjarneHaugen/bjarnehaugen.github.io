@@ -1,4 +1,5 @@
 #Bjarne1 {
+    position: relative;
     max-width: 400px;
     width: 100%;
     height: auto;
@@ -6,6 +7,13 @@
     flex: 1 1 300px;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.aboutMeText {
+    position: relative;
+    align-self: start;
+    min-width: 250px;
+    max-width: 500px;
 }
 
 .mainContent {
@@ -20,20 +28,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 40px;
-    width: 100%;
+    width: 80%;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.aboutMeText {
-    min-width: 250px;
-    max-width: 500px;
-    flex: 1 1 300px;
-}
-
-
 
 #aboutMeButton {
     background-color: #CCF381;
@@ -53,4 +54,41 @@
     justify-content: center;
     margin: 40px;
     gap: 10px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.projectsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.project {
+    height: auto;
+    width: 400px;
+    background: linear-gradient(180.09deg, #0A1D35 52.6%, #091A2F 99.92%);
+    border-radius: 12px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projectPhotos {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    align-self: center;
+    margin: auto;
 }
