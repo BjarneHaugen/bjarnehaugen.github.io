@@ -21,6 +21,25 @@ body {
     color: #CCF381;
 }
 
+.greenBar {
+    position: relative;
+    height: 4px;
+    background: #CCF381;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.greenBarTop {
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.greenBarBottom {
+    margin-left: auto;
+    margin-right: 0;
+}
+
 
 .symbols {
     display: flex;

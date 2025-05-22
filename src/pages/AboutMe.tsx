@@ -7,6 +7,7 @@ const AboutMe: React.FC = () => {
     return (
         <div>
             <Header />
+            <div className="greenBar greenBarTop"></div>
             <div id="aboutMePage">
                 <div id="aboutMePageInfo" className="aboutMeRow">
                     <h1 className='yellowText fontBebasNeue fontSizeXLarge'>Litt om meg</h1>
@@ -33,6 +34,8 @@ const AboutMe: React.FC = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="greenBar greenBarBottom"></div>
 
             <ul id="cvList">
                 <li className="yellowText fontBebasNeue fontSizeMedium">Utdanning

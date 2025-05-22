@@ -10,6 +10,7 @@ const LandingPage: React.FC = () => {
         <div>
             <Header />
             <main className="mainContent">
+                <div className="greenBar greenBarTop"></div>
                 <div className="aboutMeRow">
                     <div className="aboutMeText">
                         <h2 className='whiteText fontRajdhani fontStyleSemiBold fontSizeMedium'>Hei jeg heter</h2>
@@ -25,6 +26,7 @@ const LandingPage: React.FC = () => {
                     </div>
                     <img id="Bjarne1" src="/bjarne.jpg" alt="Bjarne Haugen" />
                 </div>
+                <div className="greenBar greenBarBottom"></div>
                 <div id="projects">
                     <h2 id="myProjects"><span className="whiteText fontBebasNeue fontSizeXLarge">MINE</span> <span className="yellowText fontBebasNeue fontSizeXLarge">PROSJEKTER</span> </h2>
                     <ProjectsList />

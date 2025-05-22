@@ -36,6 +36,8 @@ const ProjectPage: React.FC = () => {
     return (
         <div>
             <Header />
+
+            <div className="greenBar greenBarTop"></div>
             <main className="projectPage-main">
                 <h1 className="yellowText fontBebasNeue fontSizeXLarge">{project.name}</h1>
                 {/* Single Gallery Image with Dots */}
@@ -69,6 +71,8 @@ const ProjectPage: React.FC = () => {
                         />
                     ))}
                 </div>
+                <div className="greenBar greenBarBottom"></div>
+
                 {/* Background, Development, Solution */}
                 <div className="projectPage-sections">
                     <h2 className="yellowText fontBebasNeue fontSizeLarge">Bakgrunn</h2>
