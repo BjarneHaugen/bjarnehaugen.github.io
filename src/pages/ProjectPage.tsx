@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import projects from '../projects.json';
 import Header from '../components/Header';
@@ -19,6 +19,18 @@ const ProjectPage: React.FC = () => {
         nodejs: 'https://nodejs.org/',
         javascript: 'https://developer.mozilla.org/docs/Web/JavaScript',
     };
+
+    // Timer for auto-advancing gallery image every 60 seconds
+    useEffect(() => {
+        if (!project?.gallery || project.gallery.length <= 1) return;
+        const timer = setTimeout(() => {
+            setCurrentImg((prev) =>
+                prev + 1 < project.gallery.length ? prev + 1 : 0
+            );
+        }, 60000); // 60 seconds
+
+        return () => clearTimeout(timer);
+    }, [currentImg, project?.gallery]);
 
     if (!project) {
         return (
