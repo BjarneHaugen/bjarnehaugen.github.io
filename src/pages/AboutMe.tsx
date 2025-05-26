@@ -43,7 +43,7 @@ const AboutMe: React.FC = () => {
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <span className="fontStyleSemiBold">Høyskolen Kristiania</span><br />
                             Bachelor Informasjonsteknologi (180 sp) <br />
-                            2018 aug. - 2021. jun<br />
+                            Aug. 2018 - jun. 2021<br />
                             Frontend- og mobil-utvikling.
                         </li>
                     </ul>
@@ -52,19 +52,19 @@ const AboutMe: React.FC = () => {
                     <ul>
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <span className="fontStyleSemiBold">Sommervikar | Skagerak energi</span><br />
-                            jul. 2018 - aug. 2018<br />
+                            Jul. 2018 - aug. 2018<br />
                             Sommervikar innenfor utvendig vedlikehold av trafostasjoner.<br />
-                            Arbeidsoppgaver: maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
+                            Arbeidsoppgaver: Maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
                         </li>
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <span className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</span><br />
-                            sep. 2016 - jan. 2017<br />
+                            Sep. 2016 - jan. 2017<br />
                             Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
                             vasking av hjul, pigging av dekk, alle kjøretøy.
                         </li>
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <span className="fontStyleSemiBold">Lærling | A-dekk AS</span><br />
-                            jan. 2014 - jun. 2016<br />
+                            Jan. 2014 - jun. 2016<br />
                             Hjulutrustningsreparatør, lærling.<br />
                             Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
                             vasking av hjul.
