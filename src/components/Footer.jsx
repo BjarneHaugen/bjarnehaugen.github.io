@@ -11,7 +11,7 @@ const Footer = () => (
           <h3 className="yellowText fontInter">Eirik Granmorken</h3>
         </div>
         <img className="icon" src="/linkedin.svg" alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bjarne-haugen/', '_blank')} style={{ cursor: 'pointer' }} />
-        <img className="icon" src="/github.svg" alt="github" onClick={() => window.open('https://github.com/bjarnehaugen', '_blank')} style={{ cursor: 'pointer' }} />
+        <img id="github" className="icon" src="/github.svg" alt="github" onClick={() => window.open('https://github.com/bjarnehaugen', '_blank')} style={{ cursor: 'pointer' }} />
         <img className="icon" src="/phone.svg" alt="phone" />
         <h3 className="whiteText fontInter">+ 47 93 80 15 64 </h3>
 
