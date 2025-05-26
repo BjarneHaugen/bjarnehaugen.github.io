@@ -41,8 +41,8 @@ const AboutMe: React.FC = () => {
                 <li className="yellowText fontBebasNeue fontSizeMedium">Utdanning
                     <ul>
                         <li className="whiteText fontRajdhani fontSizeSmall">
-                            <span className="fontStyleSemiBold">UTDANNELSE</span><br />
-                            Bachelor Informasjonsteknologi (180 sp) | Høyskolen Kristiania<br />
+                            <span className="fontStyleSemiBold">Høyskolen Kristiania</span><br />
+                            Bachelor Informasjonsteknologi (180 sp) <br />
                             2018 aug. - 2021. jun<br />
                             Frontend- og mobil-utvikling.
                         </li>
@@ -58,7 +58,7 @@ const AboutMe: React.FC = () => {
                         </li>
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <span className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</span><br />
-                            sep. 2016 - Jan. 2017<br />
+                            sep. 2016 - jan. 2017<br />
                             Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
                             vasking av hjul, pigging av dekk, alle kjøretøy.
                         </li>

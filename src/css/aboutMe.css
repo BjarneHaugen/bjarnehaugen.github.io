@@ -46,6 +46,11 @@ p {
     max-width: 80%;
     margin: 0 auto;
     margin-top: 20px;
+    list-style-type: none;
+}
+
+#cvList ul {
+    list-style-type: none;
 }
 
 @media (max-width: 800px) {
