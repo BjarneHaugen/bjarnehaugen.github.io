@@ -20,6 +20,10 @@ const ProjectPage: React.FC = () => {
         javascript: 'https://developer.mozilla.org/docs/Web/JavaScript',
     };
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     // Timer for auto-advancing gallery image every 60 seconds
     useEffect(() => {
         if (!project?.gallery || project.gallery.length <= 1) return;

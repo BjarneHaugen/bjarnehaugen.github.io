@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/aboutMe.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const AboutMe: React.FC = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div>
             <Header />

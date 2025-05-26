@@ -4,8 +4,14 @@ import ProjectsList from '../components/ProjectsList';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import '../css/landingPage.css';
+import { useEffect } from 'react';
 
 const LandingPage: React.FC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div>
             <Header />

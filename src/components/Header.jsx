@@ -2,6 +2,8 @@ import React from "react";
 import "../css/header.css";
 
 const Header = () => (
+
+
   <header>
     <div className="headerBar"> </div>
     <div className="headerBarCut"> </div>
