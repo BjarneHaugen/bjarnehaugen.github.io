@@ -8,7 +8,7 @@
       "/nasaPage2.png"
     ],
     "summary": "Short description of Project 1.",
-    "info": "Oppgaven var å lage en nettside som henter ut dagens bilde fra NASA. Siden gir deg også mulighet til å hente ut bilder tilbake i tid ved bruk av en kalender.",
+    "info": "Et prosjekt for en side som lar deg se dagens bilde fra NASA.",
     "background": "Dette prosjektet er laget for å vise mine ferdigheter med html, css og basic javascript.",
     "development": "Prosjektet tok 2 dager. Jeg satt opp wireframe for å vite hvordan jeg ville det skulle se ut. Egen api-nøkkel ble skaffet fra nasa.gov for å kunne hente ut bilder bakover i tid. Jeg brukte copilot for å lage boilerplates og for å sjekke kode for feil. Git ble brukt for versjonskontroll. ",
     "solution": "Siden er kodet i html og Javascript og stilsatt med css.",

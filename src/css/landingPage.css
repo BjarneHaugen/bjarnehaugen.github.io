@@ -56,6 +56,12 @@
     gap: 10px;
 }
 
+@media (max-width: 800px) {
+    #myProjects {
+        flex-direction: column;
+    }
+}
+
 #projects {
     display: flex;
     flex-direction: column;
