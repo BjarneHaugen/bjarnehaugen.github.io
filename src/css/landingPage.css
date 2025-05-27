@@ -115,6 +115,12 @@
     align-items: center;
     text-align: center;
     text-decoration: none !important;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.3));
 }
 
 @media (min-width: 800px) and (max-width: 1485px) {
@@ -123,11 +129,6 @@
     }
 }
 
-.project:hover {
-    transform: translateY(-5px);
-    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.3));
-    transition: all 0.3s ease;
-}
 
 .projectPhotos {
     width: 100%;
