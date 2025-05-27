@@ -91,12 +91,12 @@ const ProjectPage: React.FC = () => {
 
                 {/* Background, Development, Solution */}
                 <div className="projectPage-sections">
-                    <h2 className="yellowText fontBebasNeue fontSizeLarge">Bakgrunn</h2>
-                    <p className="whiteText fontRajdhani fontSizeMedium">{project.background}</p>
-                    <h2 className="yellowText fontBebasNeue fontSizeLarge">Utvikling</h2>
-                    <p className="whiteText fontRajdhani fontSizeMedium">{project.development}</p>
-                    <h2 className="yellowText fontBebasNeue fontSizeLarge">Løsning</h2>
-                    <p className="whiteText fontRajdhani fontSizeMedium">{project.solution}</p>
+                    <h2 className="yellowText fontBebasNeue fontSizeMedium">Bakgrunn</h2>
+                    <p className="whiteText fontRajdhani fontSizeSmall">{project.background}</p>
+                    <h2 className="yellowText fontBebasNeue fontSizeMedium">Utvikling</h2>
+                    <p className="whiteText fontRajdhani fontSizeSmall">{project.development}</p>
+                    <h2 className="yellowText fontBebasNeue fontSizeMedium">Løsning</h2>
+                    <p className="whiteText fontRajdhani fontSizeSmall">{project.solution}</p>
                 </div>
             </main>
             <Footer />
