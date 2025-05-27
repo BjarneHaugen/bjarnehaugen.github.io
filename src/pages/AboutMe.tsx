@@ -15,7 +15,7 @@ const AboutMe: React.FC = () => {
             <div id="aboutMePage">
                 <div id="aboutMePageInfo" className="aboutMeRow">
                     <h1 className='yellowText fontBebasNeue fontSizeXLarge'>Litt om meg</h1>
-                    <p className='whiteText fontRajdhani fontStyleNormal fontSizeSmall'>Hvem er jeg? <br />
+                    <p className='whiteText fontInter fontStyleNormal fontSizeSmall'>Hvem er jeg? <br />
                         Hei, jeg heter Bjarne og er en 29 år gammel mann fra Sandefjord, Vestfold. Jeg har en bachelor i informasjonsteknologi og fagbrev som hjulutrustningsreparatør, noe som gir meg en bakgrunn som kombinerer både teknisk forståelse og praktiske ferdigheter.<br /><br />
                         Jeg er en pliktoppfyllende og punktlig person. Andre ferdigheter som beskriver meg vil være fleksibel, effektiv og praktisk anlagt. Jeg trekkes mot logisk tenkning og liker å finne smarte løsninger på utfordringer. I tillegg er jeg glad i å lære nye ting og deler gjerne kunnskap med andre. <br /><br />
                         Gaming har alltid vært en stor del av fritiden min, og jeg har lagt ned over 4000 timer i Europa Universalis IV – et grand strategy-spill som reflekterer min tilhørighet til logisk tenkning. Selv om jeg ikke spiller det like mye nå, har erfaringen formet måten jeg analyserer og løser problemer på. Samtidig liker jeg variasjon, både i spill og ellers, noe som viser at jeg er fleksibel og tilpasningsdyktig.<br /><br />

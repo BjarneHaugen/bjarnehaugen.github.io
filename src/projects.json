@@ -44,14 +44,14 @@
   },
   {
     "id": 2,
-    "name": "Project 3",
+    "name": "Portfolio side",
     "photo": "/vite.svg",
     "gallery": [
       "/vite.svg"
     ],
     "summary": "Short description of Project 3.",
-    "info": "Project 3 is a sample project.",
-    "background": "Background info about Project 3.",
+    "info": "Prosjektet var å lage en portfolio-side hvor jeg kan vise frem hva jeg kan og fortelle litt om meg selv.",
+    "background": "Prosjektet ble startet fordi jeg trengte noe å vise til hvor jeg fikk frem min kunnskap om moderne programmering verktøy. Prosjektet er gjort i samarbeid med Eirik Granmorken, hvor han har vært ansvarlig for UX-design, og med meg som eier og programmerer. ",
     "development": "How Project 3 was developed.",
     "solution": "The solution and results for Project 3.",
     "symbols": [
