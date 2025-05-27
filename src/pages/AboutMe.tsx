@@ -42,44 +42,61 @@ const AboutMe: React.FC = () => {
             <div className="greenBar greenBarBottom"></div>
 
             <ul id="cvList">
-                <li className="yellowText fontBebasNeue fontSizeSmall">Utdanning
+                <li>
+                    <h2 className="yellowText fontBebasNeue fontSizeSmall">Utdanning</h2>
                     <ul>
                         <li className="whiteText fontRajdhani fontSizeSmall">
-                            <span className="fontStyleSemiBold">Høyskolen Kristiania</span><br />
-                            Bachelor Informasjonsteknologi (180 sp) <br />
-                            Aug. 2018 - jun. 2021<br />
-                            Frontend- og mobil-utvikling.
+                            <h3 className="fontStyleSemiBold">Høyskolen Kristiania</h3>
+                            <p>
+                                Bachelor Informasjonsteknologi (180 sp) <br />
+                                Aug. 2018 - jun. 2021<br />
+                                Frontend- og mobil-utvikling.
+                            </p>
                         </li>
                     </ul>
                 </li>
-                <li className="yellowText fontBebasNeue fontSizeMedium">Erfaring
+                <li>
+                    <h2 className="yellowText fontBebasNeue fontSizeMedium">Erfaring</h2>
                     <ul>
                         <li className="whiteText fontRajdhani fontXSizeSmall">
-                            <span className="fontStyleSemiBold">Sommervikar | Skagerak energi</span><br />
-                            Jul. 2018 - aug. 2018<br />
-                            Sommervikar innenfor utvendig vedlikehold av trafostasjoner.<br />
-                            Arbeidsoppgaver: Maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
+                            <h3 className="fontStyleSemiBold">Sommervikar | Skagerak energi</h3>
+                            <p>
+                                Jul. 2018 - aug. 2018<br />
+                                Sommervikar innenfor utvendig vedlikehold av trafostasjoner.<br />
+                                Arbeidsoppgaver: Maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
+                            </p>
                         </li>
                         <li className="whiteText fontRajdhani fontXSizeSmall">
-                            <span className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</span><br />
-                            Sep. 2016 - jan. 2017<br />
-                            Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
-                            vasking av hjul, pigging av dekk, alle kjøretøy.
+                            <h3 className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</h3>
+                            <p>
+                                Sep. 2016 - jan. 2017<br />
+                                Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
+                                vasking av hjul, pigging av dekk, alle kjøretøy.
+                            </p>
                         </li>
                         <li className="whiteText fontRajdhani fontXSizeSmall">
-                            <span className="fontStyleSemiBold">Lærling | A-dekk AS</span><br />
-                            Jan. 2014 - jun. 2016<br />
-                            Hjulutrustningsreparatør, lærling.<br />
-                            Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
-                            vasking av hjul.
+                            <h3 className="fontStyleSemiBold">Lærling | A-dekk AS</h3>
+                            <p>
+                                Jan. 2014 - jun. 2016<br />
+                                Hjulutrustningsreparatør, lærling.<br />
+                                Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
+                                vasking av hjul.
+                            </p>
                         </li>
                     </ul>
                 </li>
-                <li className="yellowText fontBebasNeue fontSizeSmall">Egenskaper
+                <li>
+                    <h2 className="yellowText fontBebasNeue fontSizeSmall">Egenskaper</h2>
                     <ul>
-                        <li className="whiteText fontRajdhani fontSizeSmall"><span className="fontStyleSemiBold">Git & GitHub</span></li>
-                        <li className="whiteText fontRajdhani fontSizeSmall"><span className="fontStyleSemiBold">Responsive Design</span></li>
-                        <li className="whiteText fontRajdhani fontSizeSmall"><span className="fontStyleSemiBold">Team Collaboration</span></li>
+                        <li className="whiteText fontRajdhani fontSizeSmall">
+                            <h3 className="fontStyleSemiBold">Git & GitHub</h3>
+                        </li>
+                        <li className="whiteText fontRajdhani fontSizeSmall">
+                            <h3 className="fontStyleSemiBold">Responsive Design</h3>
+                        </li>
+                        <li className="whiteText fontRajdhani fontSizeSmall">
+                            <h3 className="fontStyleSemiBold">Team Collaboration</h3>
+                        </li>
                     </ul>
                 </li>
             </ul>
