@@ -42,7 +42,7 @@ const AboutMe: React.FC = () => {
             <div className="greenBar greenBarBottom"></div>
 
             <ul id="cvList">
-                <li className="yellowText fontBebasNeue fontSizeMedium">Utdanning
+                <li className="yellowText fontBebasNeue fontSizeSmall">Utdanning
                     <ul>
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <span className="fontStyleSemiBold">Høyskolen Kristiania</span><br />
@@ -54,19 +54,19 @@ const AboutMe: React.FC = () => {
                 </li>
                 <li className="yellowText fontBebasNeue fontSizeMedium">Erfaring
                     <ul>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani fontXSizeSmall">
                             <span className="fontStyleSemiBold">Sommervikar | Skagerak energi</span><br />
                             Jul. 2018 - aug. 2018<br />
                             Sommervikar innenfor utvendig vedlikehold av trafostasjoner.<br />
                             Arbeidsoppgaver: Maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
                         </li>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani fontXSizeSmall">
                             <span className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</span><br />
                             Sep. 2016 - jan. 2017<br />
                             Arbeidsoppgaver: reparasjon av dekk, hjulskift, dekkskift, avbalansering,<br />
                             vasking av hjul, pigging av dekk, alle kjøretøy.
                         </li>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani fontXSizeSmall">
                             <span className="fontStyleSemiBold">Lærling | A-dekk AS</span><br />
                             Jan. 2014 - jun. 2016<br />
                             Hjulutrustningsreparatør, lærling.<br />
@@ -75,7 +75,7 @@ const AboutMe: React.FC = () => {
                         </li>
                     </ul>
                 </li>
-                <li className="yellowText fontBebasNeue fontSizeMedium">Egenskaper
+                <li className="yellowText fontBebasNeue fontSizeSmall">Egenskaper
                     <ul>
                         <li className="whiteText fontRajdhani fontSizeSmall"><span className="fontStyleSemiBold">Git & GitHub</span></li>
                         <li className="whiteText fontRajdhani fontSizeSmall"><span className="fontStyleSemiBold">Responsive Design</span></li>
