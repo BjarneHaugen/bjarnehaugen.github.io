@@ -36,16 +36,29 @@
     margin-right: auto;
 }
 
+#aboutMeSummary {
+    padding-bottom: 20px;
+}
+
+
 #aboutMeButton {
     background-color: #CCF381;
     width: 300px;
     height: 100px;
     border-radius: 20px;
     border: none;
-    font-size: xx-large;
-    transition: filter 0.2s, box-shadow 0.2s;
-    cursor: pointer;
+    transition: all 0.3s ease; /* Endret for å inkludere transform og box-shadow */
+    cursor: help; /* Samme cursor som .help */
+    color: #1b1b1b; /* Kontrast mot den lyse bakgrunnen */
+    font-weight: bold;
 }
+
+/* Hover-effekt inspirert av .help */
+#aboutMeButton:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 5px 15px #00bcd450;
+}
+
 
 #myProjects {
     display: flex;
@@ -54,6 +67,7 @@
     justify-content: center;
     margin: 40px;
     gap: 10px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 800px) {
@@ -67,6 +81,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
+    margin-top: 30px;
 }
 
 .projectsList {
@@ -75,6 +90,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 60px;
+    margin-bottom: 50px;
 }
 
 .project {
@@ -90,6 +106,12 @@
     text-decoration: none !important;
 }
 
+.project:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.3));
+    transition: all 0.3s ease;
+}
+
 .projectPhotos {
     width: 100%;
     border-radius: 16px 16px 0px 0px;
@@ -98,4 +120,10 @@
     display: block;
     align-self: center;
     margin: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1485px) {
+    .project {
+        width: 300px;
+    }
 }

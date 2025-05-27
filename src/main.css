@@ -45,6 +45,7 @@ body {
 .greenBarBottom {
     margin-left: auto;
     margin-right: 0;
+    margin-bottom: 40px;
 }
 
 
@@ -73,6 +74,10 @@ body {
 
 .fontStyleNormal {
     font-weight: 400;
+}
+
+.fontStyleLight {
+    font-weight: 100;
 }
 
 .fontSizeXSmall {
