@@ -43,9 +43,9 @@ const AboutMe: React.FC = () => {
 
             <ul id="cvList">
                 <li>
-                    <h2 className="yellowText fontBebasNeue fontSizeSmall">Utdanning</h2>
+                    <h2 className="yellowText fontBebasNeue ">Utdanning</h2>
                     <ul>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Høyskolen Kristiania</h3>
                             <p>
                                 Bachelor Informasjonsteknologi (180 sp) <br />
@@ -56,9 +56,9 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="yellowText fontBebasNeue fontSizeMedium">Erfaring</h2>
+                    <h2 className="yellowText fontBebasNeue ">Erfaring</h2>
                     <ul>
-                        <li className="whiteText fontRajdhani fontXSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Sommervikar | Skagerak energi</h3>
                             <p>
                                 Jul. 2018 - aug. 2018<br />
@@ -66,7 +66,7 @@ const AboutMe: React.FC = () => {
                                 Arbeidsoppgaver: Maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
                             </p>
                         </li>
-                        <li className="whiteText fontRajdhani fontXSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</h3>
                             <p>
                                 Sep. 2016 - jan. 2017<br />
@@ -74,7 +74,7 @@ const AboutMe: React.FC = () => {
                                 vasking av hjul, pigging av dekk, alle kjøretøy.
                             </p>
                         </li>
-                        <li className="whiteText fontRajdhani fontXSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Lærling | A-dekk AS</h3>
                             <p>
                                 Jan. 2014 - jun. 2016<br />
@@ -86,15 +86,15 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="yellowText fontBebasNeue fontSizeSmall">Egenskaper</h2>
+                    <h2 className="yellowText fontBebasNeue ">Egenskaper</h2>
                     <ul>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Git & GitHub</h3>
                         </li>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Responsive Design</h3>
                         </li>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Team Collaboration</h3>
                         </li>
                     </ul>
