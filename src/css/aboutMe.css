@@ -49,8 +49,14 @@ p {
     list-style-type: none;
 }
 
+#cvList li {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
 #cvList ul {
     list-style-type: none;
+
 }
 
 @media (max-width: 800px) {
