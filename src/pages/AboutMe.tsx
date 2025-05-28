@@ -43,7 +43,7 @@ const AboutMe: React.FC = () => {
 
             <ul id="cvList">
                 <li>
-                    <h2 className="yellowText fontInter fontSizeSmall">UTDANNING</h2>
+                    <h2 className="yellowText fontRajdhani fontSizeSmall">UTDANNING</h2>
                     <ul>
                         <li className="whiteText fontInter fontXSizeSmall">
                             <h3 className="fontStyleSemiBold">Høyskolen Kristiania</h3>
@@ -57,7 +57,7 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="yellowText fontInter fontSizeSmall">ERFARING</h2>
+                    <h2 className="yellowText fontRajdhani fontSizeSmall">ERFARING</h2>
                     <ul>
                         <li className="whiteText fontInter fontXSizeSmall">
                             <h3 className="fontStyleSemiBold">Sommervikar | Skagerak energi</h3>
@@ -87,7 +87,7 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="yellowText fontInter fontSizeSmall">EGENSKAPER</h2>
+                    <h2 className="yellowText fontRajdhani fontSizeSmall">EGENSKAPER</h2>
                     <ul>
                         <li className="whiteText fontRajdhani fontSizeSmall">
                             <h3 className="fontStyleSemiBold">Git & GitHub</h3>
