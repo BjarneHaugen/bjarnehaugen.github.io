@@ -12,8 +12,7 @@
 .aboutMeText {
     position: relative;
     align-self: start;
-    min-width: 250px;
-    max-width: 500px;
+    width: 30vw;
 }
 
 .mainContent {
@@ -31,49 +30,23 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 80%;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto;
+    font-size: xx-large;
 }
 
 #aboutMeButton {
     background-color: #CCF381;
-    width: 300px;
+    width: 30vw;
     height: 100px;
     border-radius: 20px;
+    border: none;
     margin: 20px 0;
-    border: none;
-    transition: filter 0.2s, box-shadow 0.2s;
-    cursor: pointer;
-
-}
-
-#aboutMeButton {
-    background-color: #CCF381;
-    width: 300px;
-    height: 100px;
-    border-radius: 20px;
-    border: none;
     transition: all 0.3s ease;
-    /* Endret for å inkludere transform og box-shadow */
     cursor: help;
-    /* Samme cursor som .help */
     color: #1b1b1b;
-    /* Kontrast mot den lyse bakgrunnen */
     font-weight: bold;
+    font-size: xx-large;
 }
-
-@media (max-width: 768px) {
-    #myProjects {
-        flex-direction: column;
-    }
-
-    #aboutMeButton {
-    margin-bottom: 40px;
-}
-
-}
-
 
 
 /* Hover-effekt inspirert av .help */
@@ -87,14 +60,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 40px;
+    margin: 50px;
     gap: 10px;
-    margin-bottom: 50px;
+    font-size: xx-large;
 }
 
 @media (max-width: 800px) {
     #myProjects {
         flex-direction: column;
+    }
+
+    .aboutMeRow {
+        font-size: medium;
     }
 }
 
@@ -103,7 +80,6 @@
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
-    margin-top: 30px;
 }
 
 .projectsList {

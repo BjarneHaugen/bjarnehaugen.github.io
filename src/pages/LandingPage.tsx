@@ -21,10 +21,9 @@ const LandingPage: React.FC = () => {
                     <div className="aboutMeText">
                         <h2 className='whiteText fontRajdhani fontStyleSemiBold fontSizeMedium'>Hei jeg heter</h2>
                         <h1><span className="whiteText fontBebasNeue fontStyleNormal fontSizeXLarge" id='bjarneName'>BJARNE</span> <span className="yellowText fontBebasNeue fontStyleNormal fontSizeXLarge">HAUGEN</span></h1>
-                        <p id='aboutMeSummary' className='whiteText fontRajdhani fontStyleNormal fontSizeMedium'> her kommer det tekst </p>
                         <button
                             id="aboutMeButton"
-                            className='fontBebasNeue fontStyleNormal fontSizeMedium'
+                            className='fontBebasNeue fontSizeMedium'
                             onClick={() => window.location.hash = '#/aboutMe'}
                         >
                             Hvem er jeg?
