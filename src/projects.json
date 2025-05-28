@@ -45,12 +45,14 @@
   {
     "id": 2,
     "name": "Portfolio side",
-    "photo": "/havetsSkatterPage1.png",
+    "photo": "/portfolioPage1front.png",
     "gallery": [
-      "/havetsSkatterPage1.png"
+      "/portfolioPage1.png",
+      "/portfolioPage2.png",
+      "/portfolioPage3.png"
     ],
-    "summary": "Short description of Project 3.",
-    "info": "Prosjektet var å lage en portfolio-side hvor jeg kan vise frem hva jeg kan og fortelle litt om meg selv.",
+    "summary": "Prosjektet var å lage en portfolio-side hvor jeg kan vise frem hva jeg kan og fortelle litt om meg selv",
+    "info": "Et prosjekt for min portofolio side.",
     "background": "Prosjektet ble startet fordi jeg trengte noe å vise til hvor jeg fikk frem min kunnskap om moderne programmering verktøy. Prosjektet er gjort i samarbeid med Eirik Granmorken, hvor han har vært ansvarlig for UX-design, og med meg som eier og programmerer. ",
     "development": "How Project 3 was developed.",
     "solution": "The solution and results for Project 3.",

@@ -17,7 +17,7 @@ const ProjectsList = () => {
       {projects.map((project) => (
         <Link to={`/project/${project.id}`} key={project.id} className="project">
           <div>
-            <img className="projectPhotos" src={project.gallery?.[0] || project.photo} alt={project.name} />
+            <img className="projectPhotos" src={project.photo || "/default-photo.png"} alt={project.name} />
             <h3 className="yellowText fontSizeSmall fontRajdhani">{project.name}</h3>
             <p className="whiteText fontSizeXSmall fontRajdhani">{project.info}</p>
             <div className="symbols">
