@@ -24,7 +24,7 @@ body {
     height: 4px;
     background: #CCF381;
     border-radius: 4px;
-    width: 80%;
+    width: 90%;
 }
 
 .greenBarTop {
@@ -45,6 +45,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
 }
 
 .h1,
@@ -90,6 +96,8 @@ span {
     font-weight: 100;
 }
 
+/*
+
 .fontSizeXSmall {
     font-size: 20px;
 }
@@ -109,3 +117,5 @@ span {
 .fontSizeXLarge {
     font-size: 96px;
 }
+
+*/

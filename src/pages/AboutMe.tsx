@@ -89,13 +89,13 @@ const AboutMe: React.FC = () => {
                 <li>
                     <h2 className="yellowText fontRajdhani fontSizeSmall">EGENSKAPER</h2>
                     <ul>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Git & GitHub</h3>
                         </li>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Responsive Design</h3>
                         </li>
-                        <li className="whiteText fontRajdhani fontSizeSmall">
+                        <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Team Collaboration</h3>
                         </li>
                     </ul>

@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
                             id="aboutMeButton"
                             className='fontBebasNeue fontStyleNormal fontSizeMedium'
                             onClick={() => window.location.hash = '#/aboutMe'}
-                        > 
+                        >
                             Hvem er jeg?
                         </button>
                     </div>
