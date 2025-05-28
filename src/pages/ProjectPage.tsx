@@ -41,8 +41,8 @@ const ProjectPage: React.FC = () => {
             <div>
                 <Header />
                 <main className="projectPage-main not-found">
-                    <h2 className="yellowText fontBebasNeue fontSizeLarge">Prosjekt ikke funnet</h2>
-                    <button onClick={() => navigate(-1)} className="fontBebasNeue fontStyleNormal fontSizeMedium projectPage-backBtn">Tilbake</button>
+                    <h2 className="yellowText fontBebasNeue ">Prosjekt ikke funnet</h2>
+                    <button onClick={() => navigate(-1)} className="fontBebasNeue fontStyleNormal  projectPage-backBtn">Tilbake</button>
                 </main>
                 <Footer />
             </div>
@@ -55,7 +55,7 @@ const ProjectPage: React.FC = () => {
 
             <div className="greenBar greenBarTop"></div>
             <main className="projectPage-main">
-                <h1 className="yellowText fontBebasNeue fontSizeLarge">{project.name}</h1>
+                <h1 className="yellowText fontBebasNeue ">{project.name}</h1>
                 {/* Single Gallery Image with Dots */}
                 <div className="projectPage-gallery">
                     <img
@@ -91,12 +91,12 @@ const ProjectPage: React.FC = () => {
 
                 {/* Background, Development, Solution */}
                 <div className="projectPage-sections">
-                    <h2 className="yellowText fontInter fontSizeSmall">Bakgrunn</h2>
-                    <p className="whiteText fontRajdhani fontSizeMedium">{project.background}</p>
-                    <h2 className="yellowText fontInter fontSizeMedium">Utvikling</h2>
-                    <p className="whiteText fontRajdhani fontSizeSmall">{project.development}</p>
-                    <h2 className="yellowText fontInter fontSizeMedium">Løsning</h2>
-                    <p className="whiteText fontRajdhani fontSizeSmall">{project.solution}</p>
+                    <h2 className="yellowText fontInter ">Bakgrunn</h2>
+                    <p className="whiteText fontRajdhani ">{project.background}</p>
+                    <h2 className="yellowText fontInter ">Utvikling</h2>
+                    <p className="whiteText fontRajdhani ">{project.development}</p>
+                    <h2 className="yellowText fontInter ">Løsning</h2>
+                    <p className="whiteText fontRajdhani ">{project.solution}</p>
                 </div>
             </main>
             <Footer />

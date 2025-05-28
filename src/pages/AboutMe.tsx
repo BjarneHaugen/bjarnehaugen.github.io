@@ -14,8 +14,8 @@ const AboutMe: React.FC = () => {
             <div className="greenBar greenBarTop"></div>
             <div id="aboutMePage">
                 <div id="aboutMePageInfo">
-                    <h1 className='yellowText fontBebasNeue fontSizeXLarge'>Litt om meg</h1>
-                    <p className='whiteText fontInter fontStyleLight fontSizeXSmall'>Hvem er jeg? <br />
+                    <h1 className='yellowText fontBebasNeue '>Litt om meg</h1>
+                    <p className='whiteText fontInter fontStyleLight '>Hvem er jeg? <br />
                         Hei, jeg heter Bjarne og er en 29 år gammel mann fra Sandefjord, Vestfold. Jeg har en bachelor i informasjonsteknologi og fagbrev som hjulutrustningsreparatør, noe som gir meg en bakgrunn som kombinerer både teknisk forståelse og praktiske ferdigheter.<br /><br />
                         Jeg er en pliktoppfyllende og punktlig person. Andre ferdigheter som beskriver meg vil være fleksibel, effektiv og praktisk anlagt. Jeg trekkes mot logisk tenkning og liker å finne smarte løsninger på utfordringer. I tillegg er jeg glad i å lære nye ting og deler gjerne kunnskap med andre. <br /><br />
                         Gaming har alltid vært en stor del av fritiden min, og jeg har lagt ned over 4000 timer i Europa Universalis IV – et grand strategy-spill som reflekterer min tilhørighet til logisk tenkning. Selv om jeg ikke spiller det like mye nå, har erfaringen formet måten jeg analyserer og løser problemer på. Samtidig liker jeg variasjon, både i spill og ellers, noe som viser at jeg er fleksibel og tilpasningsdyktig.<br /><br />
@@ -43,9 +43,9 @@ const AboutMe: React.FC = () => {
 
             <ul id="cvList">
                 <li>
-                    <h2 className="yellowText fontRajdhani fontSizeSmall">UTDANNING</h2>
+                    <h2 className="yellowText fontRajdhani ">UTDANNING</h2>
                     <ul>
-                        <li className="whiteText fontInter fontXSizeSmall">
+                        <li className="whiteText fontInter ">
                             <h3 className="fontStyleSemiBold">Høyskolen Kristiania</h3>
                             <p className='fontInter'>
 
@@ -57,9 +57,9 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="yellowText fontRajdhani fontSizeSmall">ERFARING</h2>
+                    <h2 className="yellowText fontRajdhani ">ERFARING</h2>
                     <ul>
-                        <li className="whiteText fontInter fontXSizeSmall">
+                        <li className="whiteText fontInter ">
                             <h3 className="fontStyleSemiBold">Sommervikar | Skagerak energi</h3>
                             <p className='fontInter'>
                                 Jul. 2018 - aug. 2018<br />
@@ -67,7 +67,7 @@ const AboutMe: React.FC = () => {
                                 Arbeidsoppgaver: Maling av trafostasjoner, kutting av vegetasjon rundt stasjonene.
                             </p>
                         </li>
-                        <li className="whiteText fontInter fontXSizeSmall">
+                        <li className="whiteText fontInter ">
                             <h3 className="fontStyleSemiBold">Hjulutrustningsreparatør | Borgeskogen Dekksenter AS</h3>
                             <p className='fontInter'>
                                 Sep. 2016 - jan. 2017<br />
@@ -75,7 +75,7 @@ const AboutMe: React.FC = () => {
                                 vasking av hjul, pigging av dekk, alle kjøretøy.
                             </p>
                         </li>
-                        <li className="whiteText fontInter fontXSizeSmall">
+                        <li className="whiteText fontInter ">
                             <h3 className="fontStyleSemiBold">Lærling | A-dekk AS</h3>
                             <p className='fontInter'>
                                 Jan. 2014 - jun. 2016<br />
@@ -87,7 +87,7 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="yellowText fontRajdhani fontSizeSmall">EGENSKAPER</h2>
+                    <h2 className="yellowText fontRajdhani ">EGENSKAPER</h2>
                     <ul>
                         <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Git & GitHub</h3>

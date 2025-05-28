@@ -19,11 +19,11 @@ const LandingPage: React.FC = () => {
                 <div className="greenBar greenBarTop"></div>
                 <div className="aboutMeRow">
                     <div className="aboutMeText">
-                        <h2 className='whiteText fontRajdhani fontStyleSemiBold fontSizeMedium'>Hei jeg heter</h2>
-                        <h1><span className="whiteText fontBebasNeue fontStyleNormal fontSizeXLarge" id='bjarneName'>BJARNE</span> <span className="yellowText fontBebasNeue fontStyleNormal fontSizeXLarge">HAUGEN</span></h1>
+                        <h2 className='whiteText fontRajdhani fontStyleSemiBold '>Hei jeg heter</h2>
+                        <h1><span className="whiteText fontBebasNeue fontStyleNormal " id='bjarneName'>BJARNE</span> <span className="yellowText fontBebasNeue fontStyleNormal ">HAUGEN</span></h1>
                         <button
                             id="aboutMeButton"
-                            className='fontBebasNeue fontSizeMedium'
+                            className='fontBebasNeue '
                             onClick={() => window.location.hash = '#/aboutMe'}
                         >
                             Hvem er jeg?
@@ -33,7 +33,7 @@ const LandingPage: React.FC = () => {
                 </div>
                 <div className="greenBar greenBarBottom"></div>
                 <div id="projects">
-                    <h2 id="myProjects"><span className="whiteText fontBebasNeue fontSizeLarge">MINE</span> <span className="yellowText fontBebasNeue fontSizeLarge">PROSJEKTER</span> </h2>
+                    <h2 id="myProjects"><span className="whiteText fontBebasNeue ">MINE</span> <span className="yellowText fontBebasNeue ">PROSJEKTER</span> </h2>
                     <ProjectsList />
                 </div>
             </main>
