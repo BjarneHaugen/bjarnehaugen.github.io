@@ -20,7 +20,7 @@ const LandingPage: React.FC = () => {
                 <div className="aboutMeRow">
                     <div className="aboutMeText">
                         <h2 className='whiteText fontRajdhani fontStyleSemiBold fontSizeMedium'>Hei jeg heter</h2>
-                        <h1><span className="whiteText fontBebasNeue fontStyleNormal fontSizeXLarge">BJARNE</span> <span className="yellowText fontBebasNeue fontSizeXLarge">HAUGEN</span></h1>
+                        <h1><span className="whiteText fontBebasNeue fontStyleNormal fontSizeXLarge" id='bjarneName'>BJARNE</span> <span className="yellowText fontBebasNeue fontStyleNormal fontSizeXLarge">HAUGEN</span></h1>
                         <p id='aboutMeSummary' className='whiteText fontRajdhani fontStyleNormal fontSizeMedium'> her kommer det tekst </p>
                         <button
                             id="aboutMeButton"
