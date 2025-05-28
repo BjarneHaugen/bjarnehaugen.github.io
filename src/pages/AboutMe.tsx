@@ -13,7 +13,7 @@ const AboutMe: React.FC = () => {
             <Header />
             <div className="greenBar greenBarTop"></div>
             <div id="aboutMePage">
-                <div id="aboutMePageInfo" className="aboutMeRow">
+                <div id="aboutMePageInfo">
                     <h1 className='yellowText fontBebasNeue fontSizeXLarge'>Litt om meg</h1>
                     <p className='whiteText fontInter fontStyleLight fontSizeXSmall'>Hvem er jeg? <br />
                         Hei, jeg heter Bjarne og er en 29 år gammel mann fra Sandefjord, Vestfold. Jeg har en bachelor i informasjonsteknologi og fagbrev som hjulutrustningsreparatør, noe som gir meg en bakgrunn som kombinerer både teknisk forståelse og praktiske ferdigheter.<br /><br />
@@ -47,7 +47,7 @@ const AboutMe: React.FC = () => {
                     <ul>
                         <li className="whiteText fontInter fontXSizeSmall">
                             <h3 className="fontStyleSemiBold">Høyskolen Kristiania</h3>
-                                <p className='fontInter'>
+                            <p className='fontInter'>
 
                                 Bachelor Informasjonsteknologi (180 sp) <br />
                                 Aug. 2018 - jun. 2021<br />
