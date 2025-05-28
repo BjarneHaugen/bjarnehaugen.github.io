@@ -45,9 +45,9 @@
   {
     "id": 2,
     "name": "Portfolio side",
-    "photo": "/vite.svg",
+    "photo": "/havetsSkatterPage1.png",
     "gallery": [
-      "/vite.svg"
+      "/havetsSkatterPage1.png"
     ],
     "summary": "Short description of Project 3.",
     "info": "Prosjektet var å lage en portfolio-side hvor jeg kan vise frem hva jeg kan og fortelle litt om meg selv.",

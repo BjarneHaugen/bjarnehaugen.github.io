@@ -6,12 +6,18 @@ const Footer = () => (
     <div className="footerBarCut"></div>
     <div className="footerBar">
       <div className="innerFooterBar">
-        <div className="eirikLink">
-          <h4 className="whiteText fontInter">UX by <span className="yellowText fontInter">Eirik Granmorken</span> </h4>
+        <div
+          className="eirikLink"
+          onClick={() => window.open("https://granmorken.com/", "_blank")}
+          style={{ cursor: "pointer" }}
+        >
+          <h4 className="whiteText fontInter">
+            UX by <span className="yellowText fontInter">Eirik Granmorken</span>
+          </h4>
         </div>
       </div>
     </div>
-  </footer >
+  </footer>
 );
 
 export default Footer;
