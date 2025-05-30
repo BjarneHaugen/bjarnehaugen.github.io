@@ -33,9 +33,14 @@ const AboutMe: React.FC = () => {
                         <h3 className="whiteText fontInter">bjarnewilhelmhaugen@hotmail.com</h3>
                     </div>
                     <div className='contactInformation'>
+                        <img className='icon' src="/pdf.svg" alt="cv" onClick={() => window.open('/Bjarne_CV.pdf', '_blank')} style={{ cursor: 'pointer' }} />
+                        <h3 className="whiteText fontInter">Last ned CV</h3>
+                    </div>
+                    <div className='contactInformation'>
                         <img id="github" className="icon" src="/github.svg" alt="github" onClick={() => window.open('https://github.com/bjarnehaugen', '_blank')} style={{ cursor: 'pointer' }} />
                         <img className="icon" src="/linkedin.svg" alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/bjarne-haugen/', '_blank')} style={{ cursor: 'pointer' }} />
                     </div>
+
                 </div>
             </div>
 
@@ -89,9 +94,6 @@ const AboutMe: React.FC = () => {
                 <li>
                     <h2 className="yellowText fontRajdhani ">EGENSKAPER</h2>
                     <ul>
-                        <li className="whiteText fontRajdhani ">
-                            <h3 className="fontStyleSemiBold">Git & GitHub</h3>
-                        </li>
                         <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Responsive Design</h3>
                         </li>

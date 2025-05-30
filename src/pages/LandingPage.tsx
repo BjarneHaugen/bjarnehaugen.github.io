@@ -18,9 +18,14 @@ const LandingPage: React.FC = () => {
             <main className="mainContent">
                 <div className="greenBar greenBarTop"></div>
                 <div className="aboutMeRow">
-                    <div className="aboutMeText">
-                        <h2 className='whiteText fontRajdhani fontStyleSemiBold '>Hei jeg heter</h2>
-                        <h1><span className="whiteText fontBebasNeue fontStyleNormal " id='bjarneName'>BJARNE</span> <span className="yellowText fontBebasNeue fontStyleNormal ">HAUGEN</span></h1>
+                    <div className="aboutMeTextBox">
+                        <div className="aboutMeText">
+                            <h2 className='whiteText fontRajdhani fontStyleSemiBold'>Hei jeg heter</h2>
+                            <h1>
+                                <span className="whiteText fontBebasNeue fontStyleNormal" id='bjarneName'>BJARNE</span>
+                                <span className="yellowText fontBebasNeue fontStyleNormal">HAUGEN</span>
+                            </h1>
+                        </div>
                         <button
                             id="aboutMeButton"
                             className='fontBebasNeue '
