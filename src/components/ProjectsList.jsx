@@ -9,6 +9,7 @@ const symbolIcons = {
   html5: "/html5.svg",
   nodejs: "/nodejs.svg",
   javascript: "/javascript.svg",
+  github: "/github.svg",
 };
 
 const ProjectsList = () => {
