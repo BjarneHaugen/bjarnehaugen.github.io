@@ -38,7 +38,6 @@
 }
 
 
-
 #aboutMeButton {
     background-color: #CCF381;
     width: 20vw;
@@ -84,16 +83,24 @@
         max-width: 400px;
     }
 
+    /* changed text code, it ligger over hverandre now */
     .aboutMeText {
         display: flex;
-        align-items: baseline;
+        flex-direction: column; 
+        align-items: center;     
         justify-content: center;
-        gap: 20px;
+    }
+    /* mindre avstand mellom hei jeg heter og bjarne haugen */
+    .aboutMeText h2,
+    .aboutMeText h1 {
+        margin: 4px 0;
     }
 
     #aboutMeButton {
         max-width: 400px;
         width: 100%;
+        height: 70px;
+        
     }
 }
 
