@@ -71,6 +71,7 @@
 @media (max-width: 800px) {
     #myProjects {
         flex-direction: column;
+        margin: 10px;
     }
 
     .aboutMeRow {
