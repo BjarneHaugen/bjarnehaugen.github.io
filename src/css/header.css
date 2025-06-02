@@ -22,7 +22,7 @@
 
 #logo {
     position: relative;
-    left: 5%;
+    left: 10%;
     height: 100px;
     width: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
