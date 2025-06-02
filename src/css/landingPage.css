@@ -32,6 +32,11 @@
     font-size: xx-large;
 }
 
+.aboutMeText h1 {
+    display: flex;
+    gap: 10px;
+}
+
 #aboutMeButton {
     background-color: #CCF381;
     width: 30vw;
