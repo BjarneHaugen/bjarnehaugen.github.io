@@ -15,7 +15,8 @@
     "symbols": [
       "html5",
       "css3",
-      "javascript"
+      "javascript",
+      "github"
     ]
   },
   {
@@ -39,7 +40,8 @@
       "javascript",
       "react",
       "nodejs",
-      "vite"
+      "vite",
+      "github"
     ]
   },
   {
@@ -61,7 +63,8 @@
       "css3",
       "javascript",
       "react",
-      "vite"
+      "vite",
+      "github"
     ]
   }
 ]

@@ -31,10 +31,6 @@ p {
     margin: 0;
 }
 
-#github {
-    filter: invert(1);
-}
-
 .contactInformation {
     display: flex;
     flex-direction: row;
