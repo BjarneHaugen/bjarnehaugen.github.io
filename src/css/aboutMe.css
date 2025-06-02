@@ -71,11 +71,6 @@ p {
     }
 
     #aboutMePageInfo {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    #aboutMePage>div {
-        align-items: center;
+        max-width: 100%;
     }
 }
