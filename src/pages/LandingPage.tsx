@@ -20,7 +20,7 @@ const LandingPage: React.FC = () => {
                 <div className="aboutMeRow">
                     <div className="aboutMeTextBox">
                         <div className="aboutMeText">
-                            <h2 className='whiteText fontRajdhani fontStyleSemiBold'>Hei jeg heter</h2>
+                            <h2 className='whiteText fontRajdhani fontStyleSemiBold'>Hei, jeg heter</h2>
                             <h1>
                                 <span className="whiteText fontBebasNeue fontStyleNormal" id='bjarneName'>BJARNE</span>
                                 <span className="yellowText fontBebasNeue fontStyleNormal">HAUGEN</span>
