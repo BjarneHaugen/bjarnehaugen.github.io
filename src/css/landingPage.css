@@ -91,8 +91,7 @@
         justify-content: center;
     }
     /* mindre avstand mellom hei jeg heter og bjarne haugen */
-    .aboutMeText h2,
-    .aboutMeText h1 {
+    .aboutMeText h2, .aboutMeText h1 {
         margin: 4px 0;
     }
 
