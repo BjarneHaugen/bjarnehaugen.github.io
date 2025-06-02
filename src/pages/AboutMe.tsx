@@ -95,7 +95,52 @@ const AboutMe: React.FC = () => {
                     <h2 className="yellowText fontRajdhani ">EGENSKAPER</h2>
                     <ul>
                         <li className="whiteText fontRajdhani ">
-                            <h3 className="fontStyleSemiBold">Responsive Design</h3>
+                            <h3 className="fontStyleSemiBold">Programmering språk</h3>
+                            <div className="programmingIcons">
+                                <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+                                    <img src='react.svg' alt='React' className='icon' />
+                                </a>
+                                <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+                                    <img src='javascript.svg' alt='JavaScript' className='icon' />
+                                </a>
+                                <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">
+                                    <img src='vite.svg' alt='Vite' className='icon' />
+                                </a>
+                                <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+                                    <img src='css3.svg' alt='CSS3' className='icon' />
+                                </a>
+                                <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                                    <img src='html5.svg' alt='HTML5' className='icon' />
+                                </a>
+                                <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+                                    <img src='nodejs.svg' alt='Node.js' className='icon' />
+                                </a>
+                                <a href="https://kotlinlang.org/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original-wordmark.svg' alt='Kotlin' className='icon' />
+                                </a>
+                                <a href="https://www.java.com/en/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg' alt='Java' className='icon' />
+                                </a>
+                                <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg' alt='Csharp' className='icon' />
+                                </a>
+                                <a href="https://isocpp.org/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg' alt='C++' className='icon' />
+                                </a>
+                                <a href="https://www.swift.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original-wordmark.svg' alt='Swift' className='icon' />
+                                </a>
+                                <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg' alt='Vue.js' className='icon' />
+                                </a>
+                                <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg' alt='Typescript' className='icon' />
+                                </a>
+                                <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+                                    <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg' alt='PostgresSQL' className='icon' />
+                                </a>
+
+                            </div>
                         </li>
                         <li className="whiteText fontRajdhani ">
                             <h3 className="fontStyleSemiBold">Team Collaboration</h3>
