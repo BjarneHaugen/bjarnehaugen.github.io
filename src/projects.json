@@ -56,8 +56,8 @@
     "summary": "Prosjektet var å lage en portfolio-side hvor jeg kan vise frem hva jeg kan og fortelle litt om meg selv",
     "info": "Et prosjekt for min portofolio side.",
     "background": "Prosjektet ble startet fordi jeg trengte noe å vise til hvor jeg fikk frem min kunnskap om moderne programmering verktøy. Prosjektet er gjort i samarbeid med Eirik Granmorken, hvor han har vært ansvarlig for UX-design, og med meg som eier og programmerer. ",
-    "development": "How Project 3 was developed.",
-    "solution": "The solution and results for Project 3.",
+    "development": "I startfasen lagde Eirik forslag til lay-out. Dette så vi på sammen, hvor jeg ga uttrykk for hva jeg likte og ikke. Gjennom et par runder finpusset han disse skissene til det ble den siden du er på nå. Siden ble så skrevet av meg og Eirik fikk tilgang for å fikse på smått i css. ",
+    "solution": "Prosjektet er laget som en singel page application. det er 3 side oppsett. Prosjekter er den eneste som blir gjenbrukt for flere sider. første siden er landingsiden, side 2 prosjekt sidene, fylt fra hvilket prosjekt du trykket på.  side 3 om meg, informasjon om meg Bjarne.",
     "symbols": [
       "html5",
       "css3",
