@@ -18,6 +18,7 @@ const ProjectPage: React.FC = () => {
         html5: 'https://developer.mozilla.org/docs/Web/HTML',
         nodejs: 'https://nodejs.org/',
         javascript: 'https://developer.mozilla.org/docs/Web/JavaScript',
+        github: 'https://github.com/BjarneHaugen',
     };
 
     useEffect(() => {
