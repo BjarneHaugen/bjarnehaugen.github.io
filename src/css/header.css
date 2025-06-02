@@ -23,10 +23,10 @@
 #logo {
     position: relative;
     left: 10%;
+    top: -20px;
     height: 100px;
     width: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
-
 }
 
 #logo:hover {
