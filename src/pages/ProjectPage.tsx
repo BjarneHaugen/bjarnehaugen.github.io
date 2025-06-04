@@ -65,9 +65,7 @@ const ProjectPage: React.FC = () => {
                                 className="projectPageArrow left"
                                 onClick={() => setCurrentImg((prev) => (prev - 1 + project.gallery.length) % project.gallery.length)}
                                 aria-label="Forrige bilde"
-                            >
-                                &lt;
-                            </button>
+                            >                            </button>
                         )}
                         <img
                             className="projectPage-gallery-img"
@@ -82,7 +80,6 @@ const ProjectPage: React.FC = () => {
                                 onClick={() => setCurrentImg((prev) => (prev + 1) % project.gallery.length)}
                                 aria-label="Neste bilde"
                             >
-                                &gt;
                             </button>
                         )}
                     </div>
