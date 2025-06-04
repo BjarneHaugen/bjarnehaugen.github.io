@@ -12,6 +12,45 @@
     margin-bottom: 16px;
 }
 
+.projectPageGalleryBox {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    max-width: 80%;
+}
+
+.projectPageArrow {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 5px;
+}
+
+.projectPageArrow.left::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-left: 4px solid #CCF381;
+    border-bottom: 4px solid #CCF381;
+    transform: rotate(45deg);
+    margin-left: 8px;
+}
+
+.projectPageArrow.right::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-right: 4px solid #CCF381;
+    border-bottom: 4px solid #CCF381;
+    transform: rotate(-45deg);
+    margin-right: 8px;
+}
+
 .projectPage-gallery-dots {
     display: flex;
     gap: 8px;

@@ -59,11 +59,34 @@ const ProjectPage: React.FC = () => {
                 <h1 className="yellowText fontBebasNeue ">{project.name}</h1>
                 {/* Single Gallery Image with Dots */}
                 <div className="projectPage-gallery">
-                    <img
-                        className="projectPage-gallery-img"
-                        src={project.gallery?.[currentImg] || project.photo}
-                        alt={project.name + ' bilde ' + (currentImg + 1)}
-                    />
+                    <div className="projectPageGalleryBox">
+                        {project.gallery && project.gallery.length > 1 && (
+                            <button
+                                className="projectPageArrow left"
+                                onClick={() => setCurrentImg((prev) => (prev - 1 + project.gallery.length) % project.gallery.length)}
+                                aria-label="Forrige bilde"
+                            >
+                                &lt;
+                            </button>
+                        )}
+                        <img
+                            className="projectPage-gallery-img"
+                            src={project.gallery?.[currentImg] || project.photo}
+                            alt={project.name + ' bilde ' + (currentImg + 1)}
+                            onClick={() => window.open(project.gallery?.[currentImg] || project.photo, '_blank')}
+                            style={{ cursor: 'pointer' }}
+                        />
+                        {project.gallery && project.gallery.length > 1 && (
+                            <button
+                                className="projectPageArrow right"
+                                onClick={() => setCurrentImg((prev) => (prev + 1) % project.gallery.length)}
+                                aria-label="Neste bilde"
+                            >
+                                &gt;
+                            </button>
+                        )}
+                    </div>
+                    {/* Dots for gallery navigation */}
                     <div className="projectPage-gallery-dots">
                         {project.gallery && project.gallery.map((_, idx) => (
                             <button
