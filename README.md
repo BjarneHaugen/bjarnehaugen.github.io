@@ -1,12 +1,33 @@
-# React + Vite
+# Welcome to bjarnehaugen.github.io 👋
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Portfolio prosjekt for meg. 
 
-Currently, two official plugins are available:
+### 🏠 [Homepage](https://bjarnehaugen.github.io/bjarnehaugen.github.io)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Install
 
-## Expanding the ESLint configuration
+```sh
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+
+```sh
+npm run dev
+```
+
+## Author
+
+👤 **Bjarne Wilhelm Haugen**
+
+* Github: [@bjarnehaugen](https://github.com/bjarnehaugen)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/bjarne-haugen\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/bjarne-haugen\/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
