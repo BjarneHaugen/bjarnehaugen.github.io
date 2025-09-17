@@ -10,6 +10,7 @@ const symbolIcons = {
   nodejs: "/nodejs.svg",
   javascript: "/javascript.svg",
   github: "/github.svg",
+  godot: "/godot.svg",
 };
 
 const ProjectsList = () => {

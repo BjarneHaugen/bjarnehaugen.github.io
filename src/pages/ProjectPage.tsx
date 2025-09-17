@@ -19,6 +19,7 @@ const ProjectPage: React.FC = () => {
         nodejs: 'https://nodejs.org/',
         javascript: 'https://developer.mozilla.org/docs/Web/JavaScript',
         github: 'https://github.com/BjarneHaugen',
+        godot: 'https://godotengine.org/',
     };
 
     useEffect(() => {
@@ -118,6 +119,7 @@ const ProjectPage: React.FC = () => {
                     <p className="whiteText fontRajdhani ">{project.development}</p>
                     <h2 className="yellowText fontInter ">Løsning</h2>
                     <p className="whiteText fontRajdhani ">{project.solution}</p>
+                    <a className='hyperlink fontRajdhani' href={project.link}>{project.link}</a>
                 </div>
             </main>
             <Footer />

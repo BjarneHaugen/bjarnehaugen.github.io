@@ -66,5 +66,25 @@
       "vite",
       "github"
     ]
+  },
+  {
+    "id": 3,
+    "name": "Orb spill prosjekt",
+    "photo": "/portfolioPage1front.png",
+    "gallery": [
+      "/godot0.png",
+      "/godot1.png",
+      "/godot2.png"
+    ],
+    "summary": "Prosjektet om å lage et spill med andre på funkweb",
+    "info": "prosjektet for spillet ORB.",
+    "background": "Et spill prosjekt som ble startet fordi vi ville lage noe kult ",
+    "development": " Started med at vi ble enig om å lage et spill. fikk satt opp Asana prosjekt på funkweb. først var det idé fasen. så startet utvikling av kode og kunst. ",
+    "solution": "spillet er laget i Godot engine og skrevet med godotscript. det er et 2d puzzle plattform spill. web versjon finnes her :",
+    "link": "https://orbthegame.netlify.app/",
+    "symbols": [
+      "godot",
+      "github"
+    ]
   }
 ]
